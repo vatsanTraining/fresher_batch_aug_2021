@@ -12,6 +12,7 @@ function showDetails(student:Student,dept:Department):void{
 
 }
 
+
 var ram:Student ={id:101,firstName:"ramesh",mark:90};
 var ece:Department ={departmentName:"ECE",hod:"Shiv"};
 
