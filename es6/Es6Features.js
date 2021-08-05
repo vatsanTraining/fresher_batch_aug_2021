@@ -1,5 +1,3 @@
-//,rest,spread,destructuring
-
 const usingLet = function(){
 
     for(var i=0;i<=5;i++){
@@ -35,7 +33,17 @@ const usingRestParam = function(...marks){
      });
     console.log(total);
 }
-usingRestParam(60,80,90);
+
+const usingSpread = function(mark1,mark2,mark3){
+
+    return mark1+mark2+mark3;
+}
+var marks =[90,90,95]
+
+console.log(usingSpread(...marks));
+
+//usingRestParam(60,80,90);
+
 //usingLet();
 
 // console.log("Converter"+ usingDefaArg(30));
