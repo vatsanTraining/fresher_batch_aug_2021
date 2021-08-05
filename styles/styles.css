@@ -1,0 +1,71 @@
+/*  Id Selector */
+
+#heading{
+
+    color: #8a2be2;
+    text-align: center;
+}
+
+/*  Class  Selector */
+
+.thickBorder{
+
+    border:  5px solid #d2b48c ;
+    border-radius: 5px;
+}
+/*  Element Name Selector */
+
+a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/*  attribute selector */
+
+a[href='home.html']{
+ font-size: 1.3em;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+/*  grouping  Selector */
+
+ul>li{
+    display: inline;
+}
+/* Pseudo Class */
+
+a:hover{
+
+    background-color: #00ffff;
+}
+
+/*  pseduo Element */
+
+#para1::first-letter{
+
+    font-style: italic;
+    font-size: 2.0em;
+}
+/* box model */
+
+.inner{
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: #d2b48c;
+    margin-left: 10px;
+
+}
+
+.outer{
+
+    width: 200px;
+    height:200px;
+    border: 2px solid red;
+    background-color: #8a2be2;
+
+}
+
+.centerText{
+    text-align: center;
+}
