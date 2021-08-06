@@ -13,11 +13,9 @@ function App() {
 
   return (
     <div>
-       <div className="row">
          
            <HeaderComponent title={heading} list={list} ></HeaderComponent>
 
-       </div>
               <section className="row">
          <article className="col-md-6"></article>
          <article className="col-md-6"></article>
