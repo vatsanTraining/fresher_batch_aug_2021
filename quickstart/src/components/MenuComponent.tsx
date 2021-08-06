@@ -7,7 +7,7 @@ const MenuComponent:FunctionComponent<Menu> = (items:Menu) => {
             {
              items.list.map(function(value,idx){
 
-                return <a href={value.link}>{value.linkText}</a>
+                return <a key={idx} href={value.link}>{value.linkText}</a>
              })
 
             }

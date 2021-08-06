@@ -42,3 +42,8 @@ export interface Props{
       category:string,rating:number;
 	  
     }
+
+    export interface RestaurantList{
+
+        list:Array<Restaurant>;
+    }
