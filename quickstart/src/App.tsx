@@ -6,6 +6,7 @@ import { MenuItem, Title } from './model/models';
 import complogo from './images/logo.jpg'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import FetchRestaurants from './components/FetchRestaurants';
+import AddRestaurant from './components/AddRestaurant';
 function App() {
 
   const list:MenuItem[] =[{link:'/home',linkText:"Home"},
@@ -18,7 +19,7 @@ function App() {
            <HeaderComponent title={heading} list={list} ></HeaderComponent>
 
               <section className="row">
-         <article className="col-md-6"></article>
+         <article className="col-md-6"><AddRestaurant/></article>
          <article className="col-md-6"><FetchRestaurants/></article>
        </section>
        <footer className="row"></footer>
