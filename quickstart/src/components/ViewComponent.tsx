@@ -13,7 +13,6 @@ const ViewRestaurants:FunctionComponent<RestaurantList> = ({...restaurants}) => 
                         <td>{item.category}</td>
                         <td>{item.rating}</td>
                     </tr>
-
         )
 
     }
