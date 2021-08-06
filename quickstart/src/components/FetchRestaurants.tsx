@@ -14,10 +14,7 @@ const FetchRestaurants:FunctionComponent = () => {
                      setList(result.data)});     
        }, []);
 
- 
-    
-
-    return (
+     return (
         <div>
             <ViewRestaurants list={list}></ViewRestaurants>
         </div>
