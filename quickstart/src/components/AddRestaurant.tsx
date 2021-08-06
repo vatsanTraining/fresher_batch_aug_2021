@@ -26,7 +26,7 @@ const AddRestaurant = () => {
         <div className="form-group">
           <label htmlFor="">id</label>
           <input
-            type="text"
+            type="number"
             className="form-control"
             name="id"
             onChange={onChange}
